@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de John Mario Castañeda Gutiérrez">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portafolio</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#inicio" class="nav__logo">John M.</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link active">Inicio</a></li>
+                    <li class="nav__item"><a href="#sobremi" class="nav__link">Sobre Mi</a></li>
+                    <li class="nav__item"><a href="#habilidades" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#proyectos" class="nav__link">Proyectos</a></li>
+                    <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bxs-dashboard'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Inicio -->
+        <section class="inicio" id="inicio">
+            <div class="inicio__container bd-grid">
+                <h1 class="inicio__title"><span class="color-span">Hola,</span> Soy John M. Castañeda.</h1>
+                <div class="typewriter-effect inicio__subtitle">
+                    <div class="text" id="typewriter-text"></div>
+                </div>
+                <a href="/img/Hoja de vida JohnMC..pdf" class="button button--flex" download=""> DESCARGAR CV
+                    <i class='bx bx-download bx-tada button__icon' ></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre Mi -->
+        <section class="sobremi section" id="sobremi">
+            <h2 class="section-title">Sobre Mi</h2>
+
+            <div class="sobremi__container bd-grid">
+                <div class="sobremi__img">
+                    <img src="/img/Yo.png" alt="imgYo">
+                </div>
+                <div>
+                    <h2 class="sobremi__subtitle">John M. Castañeda Gutiérrez</h2>
+                    <span class="sobremi__profession">Frontend Developer</span>
+                    <p class="sobremi__text">Ingeniero de sistemas egresado de la universidad Santiago de Cali, con conocimientos en HTML, CSS, JavaScript, Angular, Bootstrap y Photoshop. Con gran capacidad de trabajo en equipo. Una persona íntegra y responsable, enfocado especialmente
+                        en el desarrollo web Frontend, apasionado por el aprendizaje continuo, aceptar nuevos retos y poder ampliar los conocimientos cada día más.</p>
+
+                    <div class="sobremi__social">
+                        <a href="https://www.linkedin.com/in/johncasta%C3%B1eda716/" target="_blank" class="sobremi__social-icon">
+                            <i class='bx bxl-linkedin sobremi-linkedin'></i>
+                        </a>
+                        <a href="mailto:johnmcasta@gmail.com" target="_blank" class="sobremi__social-icon">
+                            <i class='bx bx-envelope sobremi-gmail'></i>
+                        </a>
+                        <a href="https://github.com/JohnM716" target="_blank" class="sobremi__social-icon">
+                            <i class='bx bxl-github sobremi-github'></i>
+                        </a>
+                        <a href="https://wa.link/yhorqq" target="_blank" class="sobremi__social-icon">
+                            <i class='bx bxl-whatsapp sobremi-whatsapp'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades section" id="habilidades">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="habilidades__container bd-grid">
+            <div class="set">
+                <i class='bx bx-globe set__icon'></i>
+                <h3 class="habilidades__subtitle">Desarrollo Web</h3>
+                <div class="list">
+                    <label class="habilidades__name">Html</label>
+                    <a><img class="habilidades__img" src="/img/html5.png" alt="Html"></a>
+                </div>
+                <div class="list">
+                    <label class="habilidades__name">Css</label>
+                    <a><img class="habilidades__img" src="/img/css3.png" alt="Css"></a>
+                </div>
+                <div class="list">
+                    <label class="habilidades__name">JavaScript</label>
+                    <a><img class="habilidades__img" src="/img/js.png" alt="JavaScript"></a>
+                </div>
+            </div>
+
+            <div class="set">
+                <i class='bx bx-globe set__icon'></i>
+                <h3 class="habilidades__subtitle">Framework</h3>
+                <div class="list">
+                    <label class="habilidades__name">Angular</label>
+                    <a><img class="habilidades__img" src="/img/angular.png" alt="ANGULAR"></a>
+                </div>
+                <div class="list">
+                    <label class="habilidades__name">Bootstrap</label>
+                    <a><img class="habilidades__img" src="/img/bootstrap5.png" alt="BOOTSTRAP5"></a>
+                </div>
+            </div>
+
+            <div class="set">
+                <i class='bx bx-edit set__icon' ></i>
+                <h3 class="habilidades__subtitle">Diseño</h3>
+                <div class="list">
+                    <label class="habilidades__name">Photoshop</label>
+                    <a><img class="habilidades__img" src="/img/photoshop.png" alt="PHOTOSHOP"></a>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos section" id="proyectos">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="box-container">
+                <div class="box">
+                    <img src="/img/tatuajesfran.jpg" alt="Fmatabajoy tattoo">
+                    <h3 class="title">Francisco Mata tattoo</h3>
+                    <div class="info">
+                        <h3>Francisco Mata tattoo</h3>
+                        <p>Realizado en HTML, CSS y JAVASCRIPT.</p>
+                        <a href="https://johnm716.github.io/Fmatabajoy-Tatuajes/" class="proyectos__cta" target="_blank">Ir al Proyecto</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/img/Caféjohn´s.jpg" alt="CaféJohn´s">
+                    <h3 class="title">CaféJohn´s</h3>
+                    <div class="info">
+                        <h3>CaféJohn´s</h3>
+                        <p>Realizado en HTML, CSS, Bootstrap 5 y JAVASCRIPT.</p>
+                        <a href="https://johnm716.github.io/Caf-John-s/" class="proyectos__cta" target="_blank">Ir al Proyecto</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/img/pc1.jpg" alt="pc1">
+                    <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+                    <div class="info">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="proyectos__cta" target="_blank">Ir al Proyecto</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/img/pc2.jpg" alt="pc2">
+                    <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+                    <div class="info">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="proyectos__cta" target="_blank">Ir al Proyecto</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/img/pc3.jpg" alt="pc3">
+                    <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+                    <div class="info">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="proyectos__cta" target="_blank">Ir al Proyecto</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/img/pc4.jpg" alt="pc4">
+                    <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+                    <div class="info">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="proyectos__cta" target="_blank">Ir al Proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+    <footer class="footer section" id="contacto">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">JOHN M.</h2>
+                <p class="footer__text">Soy John M. y este es mi portafolio</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORAR</h2>
+                <ul>
+                    <li><a href="#inicio" class="footer__link">Inicio</a></li>
+                    <li><a href="#sobremi" class="footer__link">Sobre Mi</a></li>
+                    <li><a href="#habilidades" class="footer__link">Habilidades</a></li>
+                    <li><a href="#proyectos" class="footer__link">Proyectos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__icons">
+                <h2 class="footer__title">CONTACTAME</h2>
+                <div class="footer__social">
+                    <a class="linkedin" href="https://www.linkedin.com/in/johncasta%C3%B1eda716/" target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                </div>
+
+                <div class="footer__social">
+                    <a class="gmail" href="mailto:johnmcasta@gmail.com" target="_blank">
+                        <i class='bx bx-envelope'></i>
+                    </a>
+                </div>
+
+                <div class="footer__social">
+                    <a class="whatsapp" href="https://wa.link/yhorqq" target="_blank">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                </div>
+
+                <div class="footer__social">
+                    <a class="github" href="https://github.com/JohnM716" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="creado-por">
+            <p>© John M. All right reserved 2022</p>
+        </div>
+    </footer>
+    </main>
+    
+
+
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Main js -->
+    <script src="/JS/main.js"></script>
+</body>
+</html>

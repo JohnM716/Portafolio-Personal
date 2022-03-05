@@ -200,7 +200,7 @@ img {
     height: calc(100vh - 70px);
     display: flex;
     align-items: center;
-    background-image: var(--background), url("/img/fondo.jpg");
+    background-image: var(--background), url("img/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
